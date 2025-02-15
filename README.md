@@ -20,7 +20,7 @@
 - **`unshadow`** to merge password files (e.g., Linux `/etc/passwd` and `/etc/shadow`).  
 - **`zip2john`** to extract hashes from password-protected ZIP/RAR files.  
 - **Hashcat** (sometimes) to speed things up with GPU power.  
-- **Bash/Python scripts** to automate repetitive tasks.  
+- **Bash/Python scripts** to automate repetitive tasks. 
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
