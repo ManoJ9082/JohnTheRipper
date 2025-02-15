@@ -15,11 +15,12 @@
 - Stayed ethical by learning to test passwords responsibly, *only* with permission.  
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
-
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+ 
+- **Wordlists** (like `rockyou.txt`) for dictionary attacks.  
+- **`unshadow`** to merge password files (e.g., Linux `/etc/passwd` and `/etc/shadow`).  
+- **`zip2john`** to extract hashes from password-protected ZIP/RAR files.  
+- **Hashcat** (sometimes) to speed things up with GPU power.  
+- **Bash/Python scripts** to automate repetitive tasks.  
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
