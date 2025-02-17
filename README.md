@@ -38,7 +38,7 @@ We have specified format like which algorithm of hash they're using eg:** -MD5, 
 **Image 3 - Cracking Zip password**
 ![image](https://github.com/user-attachments/assets/e26dae03-9ed9-49de-916a-2ca18d7e1865)
 
-John has another utility called zip2john. zip2john helps us to get the hash from zip files. The below command will get the hash from the zip file and store it in the zip.txt file. and we will use John to crack the hash and we successfully cracked the zip password.
+John has another utility called zip2john. zip2john helps us to get the hash from zip files. The above command will get the hash from the zip file and store it in the zip.txt file. and we will use John to crack the hash and we successfully cracked the zip password.
 
 
 
