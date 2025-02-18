@@ -29,12 +29,12 @@
 
 ![image1](https://github.com/user-attachments/assets/4791a922-5058-49aa-90f8-71fba57b189b)
 <ins>****Image 1 - Creating hash****</ins>
-
+<hr>
 We have specified format like which algorithm of hash they're using eg:** -MD5, -SHA1, -SHA256**, etc. These values are fed into John the Ripper to crack in **Image 2**. We specified wordlist mode and instructed it to use rockyou.txt, one of the built-in wordlists that comes by default with most security-focused Linux distributions. and in the last we have to give the file that loaded with hash and then as you can see in Image 2 we have successfully cracked the password "MANOJ".
 
 ![image](https://github.com/user-attachments/assets/49928181-8ba0-4f8d-9a1c-b7b4b1a951ac)
 <ins>****Image 2 - Cracking password****</ins>
-
+<hr>
 John has another utility called zip2john. zip2john helps us to get the hash from zip files. The above command will get the hash from the zip file and store it in the zip.txt file. and we will use John to crack the hash and we successfully cracked the zip password "123456".
 
 ![image](https://github.com/user-attachments/assets/e26dae03-9ed9-49de-916a-2ca18d7e1865)
