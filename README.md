@@ -74,17 +74,17 @@ The goal of this project was to perform password cracking on various hashed pass
 
 ## 🔍 Example Commands  
 
-Basic cracking:
-john hashes.txt --wordlist=/usr/share/wordlists/rockyou.txt
+- Basic cracking:
+  john hashes.txt --wordlist=/usr/share/wordlists/rockyou.txt
 
-Show cracked passwords:
-john --show hashes.txt
+- Show cracked passwords:
+  john --show hashes.txt
 
-Run with custom rules:
-john --rules --wordlist=customlist.txt hashes.txt
+- Run with custom rules:
+  john --rules --wordlist=customlist.txt hashes.txt
 
-Unshadow passwd and shadow files:
-unshadow /etc/passwd /etc/shadow > combined.txt
+- Unshadow passwd and shadow files:
+  unshadow /etc/passwd /etc/shadow > combined.txt
 
 ## 📊 Notable Results
 
@@ -105,9 +105,9 @@ unshadow /etc/passwd /etc/shadow > combined.txt
 
 ## 📚 References
 
--JohnTheRipper Official Docs
--Cracking Password Hashes with JohnTheRipper
--rockyou.txt Wordlist
+- JohnTheRipper Official Docs
+- Cracking Password Hashes with JohnTheRipper
+- rockyou.txt Wordlist
 
 
 🚀 Author: Manoj Mothukuru
