@@ -62,13 +62,13 @@ The goal of this project was to perform password cracking on various hashed pass
 ## 📸 Screenshots  
 
 > 📌 **Running JohnTheRipper against a hash file**
-![Image1](![hash](https://github.com/user-attachments/assets/7dc887b9-6503-49f9-a1ce-00ec831a7e81)
+![hash](https://github.com/user-attachments/assets/7dc887b9-6503-49f9-a1ce-00ec831a7e81)
 
 > 📌 **zip2john**
-![Image2]![zipjohn](https://github.com/user-attachments/assets/70a6b7bf-d0f7-40ee-bbda-d550e7431b43)
+![zipjohn](https://github.com/user-attachments/assets/70a6b7bf-d0f7-40ee-bbda-d550e7431b43)
 
 > 📌 **Cracked password results**
-![Image3]![rockyou](https://github.com/user-attachments/assets/7c3e98d4-7a45-465f-8922-d4429bb2dec8)
+![rockyou](https://github.com/user-attachments/assets/7c3e98d4-7a45-465f-8922-d4429bb2dec8)
 
 
 
