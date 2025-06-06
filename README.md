@@ -74,18 +74,18 @@ The goal of this project was to perform password cracking on various hashed pass
 
 ## 🔍 Example Commands  
 
-- Basic cracking:
-                 john hashes.txt --wordlist=/usr/share/wordlists/rockyou.txt
+- Basic cracking:-
+  john hashes.txt --wordlist=/usr/share/wordlists/rockyou.txt
 
-- Show cracked passwords:
-                 john --show hashes.txt
+- Show cracked passwords:-
+  john --show hashes.txt
 
-- Run with custom rules:
-                 john --rules --wordlist=customlist.txt hashes.txt
+- Run with custom rules:-
+  john --rules --wordlist=customlist.txt hashes.txt
 
-- Unshadow passwd and shadow files:
-                 unshadow /etc/passwd /etc/shadow > combined.txt
-
+- Unshadow passwd and shadow files:-
+   unshadow /etc/passwd /etc/shadow > combined.txt
+  
 ## 📊 Notable Results
 
 - Successfully cracked 85% of MD5 hashes within 5 minutes using rockyou.txt.
